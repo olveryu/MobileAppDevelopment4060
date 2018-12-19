@@ -1,0 +1,3 @@
+Place: Beijing, Xi'an,Shanghai,Guiling
+Currency: renminbi
+Exchange rate: 1 Chinese Yuan equals 0.15 United States Dollar

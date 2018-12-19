@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/Information"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="28dp"
+        android:text="information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/City"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/OverviewTitle"
+        android:layout_width="232dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="Overview"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Flag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/Flag"
+        android:layout_width="242dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toTopOf="@+id/OverviewText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OverviewTitle"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/OverviewText"
+        android:layout_width="346dp"
+        android:layout_height="213dp"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Flag"
+        app:layout_constraintVertical_bias="0.809" />
+</android.support.constraint.ConstraintLayout>

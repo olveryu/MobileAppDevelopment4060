@@ -1,0 +1,3 @@
+Place: Rome, Venice, Florence, Pisa
+Currency: Euro
+Exchange Rate: 1 Euro equals 1.17 United States Dollar
